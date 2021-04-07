@@ -1,0 +1,9 @@
+body {
+  overflow-x: hidden;
+  touch-action: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
