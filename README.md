@@ -1,6 +1,6 @@
 # React Website Boilerplate
 
-This is a boilerplate that's made under the React Framework.
+This is a boilerplate that's made with the React Framework.
 
 ## Features
 

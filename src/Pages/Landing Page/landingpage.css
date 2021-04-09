@@ -7,10 +7,14 @@
   min-width: 100vw;
   transition-duration: 0.4s;
   user-select: none;
+  z-index: 2;
+  position: fixed;
 }
 
 .starship {
+  /* background: #8ce78c; */
   fill: #1c1c1c;
+  /* width: 4vw; */
   padding-left: 22px;
 }
 
