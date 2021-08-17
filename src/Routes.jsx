@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 import LandingPage from "./Pages/Landing Page/LandingPage";
 
@@ -11,9 +11,10 @@ const Routes = () => {
     },
     {
       path: null,
-      render: Redirect,
+      render: LandingPage,
     },
   ];
+
   return (
     <Switch>
       {routes.map((route) => (
@@ -26,7 +27,6 @@ const Routes = () => {
           )}
         />
       ))}
-      <Route render={() => <Redirect to="/" />} />
     </Switch>
   );
 };
