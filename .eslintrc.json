@@ -25,6 +25,7 @@
         "react/no-unescaped-entities": "off",
         "react/jsx-props-no-spreading": "off",
         "react/no-access-state-in-setstate": "off",
+        "react/function-component-definition": "off",
         "jsx-a11y/no-autofocus": "off",
         "jsx-a11y/label-has-associated-control": "off",
         "jsx-a11y/click-events-have-key-events": "off",

@@ -7,6 +7,7 @@ This is a boilerplate that's made with the React Framework.
 - Landing Page
 - PWA Optimized
 - SEO Optimized
+- Prerendered On Deployment
 
 ## Installation
 
