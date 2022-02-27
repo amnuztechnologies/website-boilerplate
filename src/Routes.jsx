@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes as Switch } from "react-router-dom";
+import { Route, Routes as Switch, Navigate } from "react-router-dom";
 
 import LandingPage from "./Pages/Landing Page/LandingPage";
 
@@ -11,20 +11,20 @@ const Routes = () => {
     },
     {
       path: null,
-      render: LandingPage,
     },
   ];
 
   return (
     <Switch>
-      {routes.map((route) => (
+      {routes.map((route) => (route.path ? (
         <Route
           key={route.path}
           path={route.path}
-          exact
-          element={<route.render />}
+          element={(<route.render />)}
         />
-      ))}
+      ) : (
+        <Route path="*" element={<Navigate to="/" />} />
+      )))}
     </Switch>
   );
 };
