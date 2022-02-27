@@ -1,6 +1,6 @@
 # React Website Boilerplate
 
-This is a boilerplate that's made with the React Framework.
+This is a boilerplate that's made with the React Framework, with some of our(amnuz team) most commonly used essentials.
 
 ## Features
 
@@ -29,6 +29,9 @@ Once installed, start the Development Server.
 npm start
 ```
 
-And that's it! You have now started developing for you next new project!
+And that's it! You have now started developing your next new react project!
+
+
 
 Happy hacking!
+
